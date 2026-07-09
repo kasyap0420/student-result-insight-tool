@@ -1,15 +1,41 @@
 # Virtual environment
 venv/
+.venv/
+env/
 
 # Python cache
 __pycache__/
 *.py[cod]
+*$py.class
+
+# Python build files
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test and coverage files
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
 
 # VS Code
 .vscode/
 
-# Environment variables
+# IntelliJ / PyCharm
+.idea/
+
+# Environment variables and secrets
 .env
+.env.*
 
 # Logs
 *.log
+
+# Generated CSV exports
+exports/
+
+# OS files
+.DS_Store
+Thumbs.db
